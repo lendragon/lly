@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+#menu{
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    position: absolute;
+    background-color: lightgray;
+    border-top: 5px solid black;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+    height: 30%;
+}
+#menu input{
+    height: 30%;
+    width: 13%;
+    position: relative;
+    top: 40%;
+    font-size: larger;
+    border-radius: 10px;
+    outline: none;
+    animation: cx 2s;
+}
+.me_2{
+    display: none;
+}
+@keyframes cx {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
